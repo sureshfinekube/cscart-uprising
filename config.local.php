@@ -30,15 +30,15 @@ if (!defined('CONSOLE')) {
 /*
  * Database connection options
  */
-$config['db_host'] = '%DB_HOST%';
-$config['db_name'] = '%DB_NAME%';
-$config['db_user'] = '%DB_USER%';
-$config['db_password'] = '%DB_PASSWORD%';
+$config['db_host'] = 'localhost';
+$config['db_name'] = 'cs_cart_demo';
+$config['db_user'] = 'suresh';
+$config['db_password'] = '369963';
 
 $config['database_backend'] = 'mysqli';
 
 // Database tables prefix
-$config['table_prefix'] = 'cscart_';
+$config['table_prefix'] = 'fk_';
 
 /*
  * Script location options
@@ -55,12 +55,12 @@ $config['table_prefix'] = 'cscart_';
  */
 
 // Host and directory where software is installed on no-secure server
-$config['http_host'] = '%HTTP_HOST%';
-$config['http_path'] = '%HOST_DIR%';
+$config['http_host'] = 'uprisingrivals.in';
+$config['http_path'] = '';
 
 // Host and directory where software is installed on secure server
-$config['https_host'] = '%HTTPS_HOST%';
-$config['https_path'] = '%HOST_DIR%';
+$config['https_host'] = 'uprisingrivals.in';
+$config['https_path'] = '';
 
 /*
  * Misc options
@@ -107,7 +107,7 @@ $config['tweaks'] = array (
 );
 
 // Key for sensitive data encryption
-$config['crypt_key'] = 'YOURVERYSECRETKEY';
+$config['crypt_key'] = 'U93HQI4xRv';
 
 // Cache backend
 // Available backends: file, sqlite, database, redis, xcache, apc, apcu
